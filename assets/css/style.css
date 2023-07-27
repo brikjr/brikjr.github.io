@@ -1801,7 +1801,7 @@ section#works .see-projects {
 
 @media screen and (min-width: 1351px) and (max-width: 1450px) {
   section#works .see-projects {
-    bottom: 500px;
+    bottom: 400px;
   }
 }
 
