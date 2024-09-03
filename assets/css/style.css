@@ -1297,11 +1297,6 @@ section#intro .circle.circle2 {
   right: 150px;
 }
 
-section#intro .circle.circle3 {
-  position: absolute;
-  bottom: 150px;
-  left: 350px;
-}
 
 @media screen and (max-width: 600px) {
   section#intro .circle.circle3 {
@@ -1838,7 +1833,6 @@ section#works .see-projects a.link {
 section#works img {
   max-width: 100%;
   height: auto;
-  display: block;
   box-shadow: 0 0 38px rgba(0, 0, 0, 0.3), 0 0 12px rgba(0, 0, 0, 0.22);
   opacity: 0.5;
   position: relative;
@@ -1882,6 +1876,16 @@ section#works figure:after {
   section#works figure:after {
     width: 60px;
   }
+  section#works img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 20px;
+    box-shadow: 0 0 38px rgba(0, 0, 0, 0.3), 0 0 12px rgba(0, 0, 0, 0.22);
+    opacity: 0.5;
+    position: relative;
+    z-index: 4;
+    transition: all .4s ease;
+  }
 }
 
 @media screen and (max-width: 410px) {
@@ -1892,11 +1896,12 @@ section#works figure:after {
 
 section#works figure.line:after {
   content: '';
-  width: 80%;
+  width: 50%;
   height: 80px;
   background-color: rgba(217, 217, 217, 0.4);
   position: absolute;
   top: 50px;
+  bottom: 10px;
   left: -50px;
 }
 
