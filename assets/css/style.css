@@ -1344,7 +1344,6 @@ section#intro .cookie-banner {
 @media screen and (max-width: 480px) {
   section#intro .cookie-banner {
     top: inherit;
-    bottom: -30px;
     left: -8px;
   }
 }
@@ -1489,6 +1488,9 @@ section#intro .wrap-description {
 @media screen and (max-width: 430px) {
   section#intro .wrap-description {
     bottom: 0px;
+  }
+  section {
+    height: 100vh;
   }
 }
 
