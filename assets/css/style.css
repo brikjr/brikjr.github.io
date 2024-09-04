@@ -1344,7 +1344,6 @@ section#intro .cookie-banner {
 @media screen and (max-width: 480px) {
   section#intro .cookie-banner {
     top: inherit;
-    left: -8px;
   }
 }
 
@@ -1366,7 +1365,7 @@ section#intro .cookie-banner .text {
 
 @media screen and (max-width: 480px) {
   section#intro .cookie-banner .text {
-    padding-left: 5px;
+    padding-left: 15px;
   }
 }
 
@@ -1487,10 +1486,16 @@ section#intro .wrap-description {
 
 @media screen and (max-width: 430px) {
   section#intro .wrap-description {
-    bottom: 0px;
+    bottom: 10%;
   }
   section {
     height: 100vh;
+  }
+  section#space {
+    height: 30vh;
+  }
+  section#intro .wrap-content {
+    bottom: -10%;
   }
 }
 
@@ -1890,7 +1895,7 @@ section#works figure:after {
   }
   .gallery {
     left: 75%;
-    top: 20px;
+    top: -45px;
   }
   .gallery a{
     font-size: 14px;
