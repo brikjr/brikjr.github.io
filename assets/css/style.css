@@ -1894,7 +1894,7 @@ section#works figure:after {
     transition: all .4s ease;
   }
   .gallery {
-    left: 75%;
+    left: 60%;
     top: -45px;
   }
   .gallery a{
